@@ -4,16 +4,15 @@
     "supportUrl": "",
     "iconUrl": "./assets/icon.png",
     "includes": [
-        "https://*.ingress.com/intel*"
+        "https://*.zdf.de/*"
     ],
     "excludes": [
-        "https://*.ingress.com/mission/*"
     ],
     "requires": [],
     "recources": [],
     "connecters": [],
     "matches": [
-        "https://*.ingress.com/intel*"
+        "https://*.zdf.de/*"
     ],
     "runAt": "document-start",
     "grants": [

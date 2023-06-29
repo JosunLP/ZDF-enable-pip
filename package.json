@@ -1,7 +1,7 @@
 {
-  "name": "userscript-project-template",
+  "name": "zdf-enable-pip",
   "version": "0.0.1",
-  "description": "A user script project template to create large and structured TypeScript projects for Tampermonkey or Greasemonkey. It is intended to form a scalable base and is primarily aimed at the Ingress community.",
+  "description": "A smal script that enables picture in picture in the ZDF Mediathek",
   "main": "index.ts",
   "scripts": {
     "build": "webpack && npm run build-userScriptHeader",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JosunLP/UserScriptProjectTemplate.git"
+    "url": "git+https://github.com/JosunLP/ZDF-enable-pip.git"
   },
   "keywords": [
     "User",
@@ -22,13 +22,16 @@
   "author": "Jonas Pfalzgraf <info@josunlp.de>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JosunLP/UserScriptProjectTemplate/issues"
+    "url": "https://github.com/JosunLP/ZDF-enable-pip/issues"
   },
-  "homepage": "https://github.com/JosunLP/UserScriptProjectTemplate#readme",
+  "homepage": "https://github.com/JosunLP/ZDF-enable-pip#readme",
   "devDependencies": {
     "ts-loader": "^9.3.1",
     "typescript": "^4.7.4",
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "simple-toast-messages": "^1.0.2"
   }
 }
