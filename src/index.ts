@@ -1,11 +1,7 @@
-import { T } from 'simple-toast-messages';
-
 /**
  * App
  */
 class App {
-
-    private msg: T = T.getInstance();
 
     constructor() {
         this.main();

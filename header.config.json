@@ -1,7 +1,7 @@
 {
-    "updateUrl": "",
-    "downloadUrl": "",
-    "supportUrl": "",
+    "updateUrl": "https://raw.githubusercontent.com/JosunLP/ZDF-enable-pip/main/dist/zdf-enable-pip.user.js",
+    "downloadUrl": "https://raw.githubusercontent.com/JosunLP/ZDF-enable-pip/main/dist/zdf-enable-pip.user.js",
+    "supportUrl": "https://ko-fi.com/josunlp/",
     "iconUrl": "./assets/icon.png",
     "includes": [
         "https://*.zdf.de/*"
