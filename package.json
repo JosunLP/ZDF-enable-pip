@@ -1,11 +1,11 @@
 {
   "name": "zdf-enable-pip",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A smal script that enables picture in picture in the ZDF Mediathek",
   "main": "index.ts",
   "scripts": {
     "build": "webpack && npm run build-userScriptHeader",
-    "build-tooling": "tsc ./tools/userScriptHeader.ts --target esnext --module esnext --lib ESNext",
+    "build-tooling": "tsc ./tools/userScriptHeader.ts --target esnext --moduleResolution node --module esnext --lib ESNext",
     "build-userScriptHeader": "npm run build-tooling && node ./tools/userScriptHeader.js"
   },
   "repository": {

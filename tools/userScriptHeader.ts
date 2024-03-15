@@ -22,8 +22,8 @@ function appendHeader(header: string) {
 
 /**
  * Builds base64 url from file
- * @param filePath 
- * @returns  
+ * @param filePath
+ * @returns
  */
 async function buildBase64UrlFromFile(filePath: string): Promise<string> {
   const file = await fs.promises.readFile(filePath);
@@ -38,7 +38,6 @@ async function buildBase64UrlFromFile(filePath: string): Promise<string> {
  */
 function generateMultibleEntrys(type: string, array: string[]): string {
   let result: string = "";
-  debugger;
   if (array) {
     array.forEach((item: string) => {
       result += `// ${type}     ${item}`;
