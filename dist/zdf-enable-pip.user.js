@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         zdf-enable-pip
 // @namespace    https://github.com/JosunLP/ZDF-enable-pip#readme
-// @version      1.1.0
+// @version      1.1.1
 // @description  A smal script that enables picture in picture in the ZDF Mediathek
 // @author       Jonas Pfalzgraf <info@josunlp.de>
 // @homepage     https://github.com/JosunLP/ZDF-enable-pip#readme

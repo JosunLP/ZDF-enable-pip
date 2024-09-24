@@ -1,6 +1,6 @@
 {
   "name": "zdf-enable-pip",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A smal script that enables picture in picture in the ZDF Mediathek",
   "main": "index.ts",
   "scripts": {
